@@ -3,9 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import { stringJSON, useLocalStorage, useScreenType  } from '@mreycode/utils';
+
 function App() {
   const [count, setCount] = useState(0)
-  const screenType = useScreenType();
+  const [appTheme, setAppTheme] = useLocalStorage('theme', 'dark');
+  const screentType = useScreenType();
+  console.log(screentType);
+  
+  // console.log(stringJSON('{"name": "MrEYCode"}', 'country', 'Philippines'));
+  
   return (
     <>
       <div>
@@ -16,10 +23,13 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h2>{'<MrEYCode/>'}</h2>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
+        </button>
+        <button onClick={() => setAppTheme(prev => prev === 'light' ? 'dark' : 'light')}>
+          App Theme: {appTheme}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
