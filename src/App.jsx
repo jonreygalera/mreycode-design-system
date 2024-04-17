@@ -2,8 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
+import {  Typography } from '@mreycode/system';
 import { stringJSON, useLocalStorage, useScreenType  } from '@mreycode/utils';
+import TypographyPage from './Pages/BaseSystem/Typography/TypographyPage';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,15 +17,12 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <Typography variant='h1'>{'<MrEYCode/>'}</Typography>
       </div>
-      <h2>{'<MrEYCode/>'}</h2>
       <div className="card">
+      <TypographyPage/>
+
+
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
