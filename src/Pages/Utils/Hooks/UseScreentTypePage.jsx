@@ -1,6 +1,6 @@
 
 import PageLayout from '../../../Layouts/PageLayout';
-import Typography  from '../../../packages/mreycode-system/src/Typography';
+import { Typography }  from '@mreycode/system';
 
 import React from 'react'
 import { useScreenType  } from '@mreycode/utils';

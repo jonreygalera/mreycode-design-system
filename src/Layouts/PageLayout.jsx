@@ -1,5 +1,5 @@
 import React from 'react'
-import Typography  from '../packages/mreycode-system/src/Typography';
+import { Typography }  from '@mreycode/system';
 
 const styles = {
   root: {
