@@ -1,37 +1,26 @@
 import React from 'react'
 
-import {  Typography } from '@mreycode/system';
+import Typography  from '../../../packages/mreycode-system/src/Typography';
 
 import typpographyVariants from '../../../packages/mreycode-system/src/types/typographyVariants';
-
-const styles = {
-  root: {
-    flex: 1,
-    borderColor: '#fff',
-    border: 1,
-    borderStyle: 'solid',
-    borderRadius: 24,
-    padding: 1
-  }
-};
+import PageLayout from '../../../Layouts/PageLayout';
 
 
 const TypographyPage = () => {
   return (
-    <div style={styles.root}>
-      <Typography variant='h2'>{'#<Typography/>'}</Typography>
-      <hr/>
+    <PageLayout title='Typography'>
+      <Typography>Working in progress!</Typography>
       <div>
         {
           Object.entries(typpographyVariants).map(([typographyValue], index) => (
-            <>
-              <Typography variant={typographyValue} key={`typography-${index}`}>{typographyValue}: Hello world!</Typography>
+            <div key={`typography-${index}`}>
+              <Typography variant={typographyValue} >{typographyValue}: Hello world!</Typography>
               <hr/>
-            </>
+            </div>
           ))
         }
       </div>
-    </div>
+    </PageLayout>
   )
 }
 
