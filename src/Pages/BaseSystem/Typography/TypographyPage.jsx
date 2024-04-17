@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Typography  from '../../../packages/mreycode-system/src/Typography';
+import { Typography }  from '@mreycode/system';
 
 import typpographyVariants from '../../../packages/mreycode-system/src/types/typographyVariants';
 import PageLayout from '../../../Layouts/PageLayout';
