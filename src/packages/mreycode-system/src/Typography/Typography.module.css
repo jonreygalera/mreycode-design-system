@@ -1,0 +1,79 @@
+.mreycode-typography-h1 {
+  font-size:  96px;
+  font-weight: lighter;
+  line-height: -1.5px;
+}
+
+.mreycode-typography-h2 {
+  font-size: 60px;
+  font-weight: lighter;
+  line-height: -0.5px;
+}
+
+.mreycode-typography-h3 {
+  font-size: 48px;
+  font-weight: lighter;
+  line-height: 0px;
+}
+
+.mreycode-typography-h4 {
+  font-size: 34px;
+  font-weight: lighter;
+  line-height: 0.25px;
+}
+
+.mreycode-typography-h5 {
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 0px;
+}
+
+.mreycode-typography-h6 {
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 0.15px;
+}
+
+.mreycode-typography-subtitle1 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 0.15px;
+}
+
+.mreycode-typography-subtitle2 {
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 0.1px;
+}
+
+.mreycode-typography-body1 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 0.5px;
+}
+
+.mreycode-typography-body2 {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 0.25px;
+}
+
+.mreycode-typography-button {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.25px;
+  text-transform: uppercase;
+}
+
+.mreycode-typography-caption {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 0.4px;
+}
+
+.mreycode-typography-overline {
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 1.5px;
+  text-transform: uppercase;
+}
