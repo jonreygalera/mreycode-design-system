@@ -2,9 +2,23 @@ import React from 'react'
 
 import { Typography }  from '@mreycode/system';
 
-import typpographyVariants from '../../../packages/mreycode-system/src/types/typographyVariants';
 import PageLayout from '../../../Layouts/PageLayout';
 
+const typpographyVariants = Object.freeze({
+  h1: 'h1',
+  h2: 'h2',
+  h3: 'h3',
+  h4: 'h4',
+  h5: 'h5',
+  h6: 'h6',
+  subtitle1: 'subtitle1',
+  subtitle2: 'subtitle2',
+  body1: 'body1',
+  body2: 'body2',
+  button: 'button',
+  caption: 'caption',
+  overline: 'overline',
+})
 
 const TypographyPage = () => {
   return (

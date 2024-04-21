@@ -1,11 +1,13 @@
 {
-  "name": "@mreycode/system",
-  "description": "System components beta",
+  "name": "@mreycode/system-ui",
+  "description": "React components pre release",
   "author": "Jon Rey Galera <jonreygalera@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonreygalera/mreycode/tree/main/src/packages/mreycode-system"
+    "url": "https://github.com/jonreygalera/mreycode-design-system.git",
+    "directory": "src/packages/mreycode-system-ui"
   },
+  "homepage": "https://mreycode-design-system.vercel.app",
   "license": "MIT",
   "private": false,
   "version": "0.0.0-pre-alpha",
@@ -29,7 +31,8 @@
   },
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "clsx": "^2.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
@@ -42,7 +45,11 @@
     "vite": "^5.2.0"
   },
   "dependencies": {
-    "clsx": "^2.1.0",
     "vite-plugin-lib-inject-css": "^2.0.1"
-  }
+  },
+  "keywords": [
+    "react",
+    "design",
+    "react-component"
+  ]
 }
